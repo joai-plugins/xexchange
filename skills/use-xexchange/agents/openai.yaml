@@ -1,0 +1,18 @@
+interface:
+  display_name: "xExchange"
+  short_description: "Connect xExchange to Claude, Codex, and ChatGPT through JoAi's hosted MCP app server."
+  icon_small: "https://raw.githubusercontent.com/JoAiHQ/assets/refs/heads/main/apps/logos/xexchange.svg"
+  icon_large: "https://raw.githubusercontent.com/JoAiHQ/assets/refs/heads/main/apps/logos/xexchange.svg"
+  brand_color: "#22F7DD"
+  default_prompt: "List the xExchange tools available in this app."
+
+policy:
+  allow_implicit_invocation: true
+
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "joai-xexchange"
+      description: "xExchange MCP server by JoAi"
+      transport: "streamable_http"
+      url: "https://cortex.joai.ai/mcp/apps/xexchange"
