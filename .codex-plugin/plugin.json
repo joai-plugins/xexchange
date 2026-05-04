@@ -1,0 +1,38 @@
+{
+  "name": "joai-xexchange",
+  "version": "0.3.0",
+  "description": "Connect xExchange to Claude, Codex, and ChatGPT through JoAi's hosted MCP app server.",
+  "author": {
+    "name": "JoAi",
+    "email": "support@joai.ai",
+    "url": "https://joai.ai"
+  },
+  "homepage": "https://joai.ai/en/apps/xexchange",
+  "repository": "https://github.com/JoAiHQ/plugins",
+  "license": "MIT",
+  "keywords": [
+    "joai",
+    "mcp",
+    "xexchange"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "xExchange by JoAi",
+    "shortDescription": "Connect xExchange to Claude, Codex, and ChatGPT through JoAi's hosted MCP app server.",
+    "longDescription": "Decentralized exchange (DEX) on MultiversX. Swap tokens, provide liquidity, and earn rewards on the leading DeFi platform for the eGold ecosystem.",
+    "developerName": "JoAi",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive"
+    ],
+    "websiteURL": "https://joai.ai/en/apps/xexchange",
+    "privacyPolicyURL": "https://legal.vleap.ai/policies/privacy.html",
+    "termsOfServiceURL": "https://legal.vleap.ai/general/legal-notice.html",
+    "defaultPrompt": [
+      "List the xExchange tools available in this app.",
+      "Explain what setup or authentication xExchange needs before I run an action.",
+      "Use xExchange to help me with the task I describe next."
+    ]
+  }
+}
